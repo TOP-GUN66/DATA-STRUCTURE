@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include<stdlib.h>
 #include<malloc.h>
 #define  ElemType int
@@ -53,8 +54,8 @@ int main(void)
 
 	DeleteQueue(&Q);
 	
-	printf("ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½%d\n", Q.front);
-	printf("ï¿½ï¿½Î²Î»ï¿½ï¿½%d\n", Q.rear);
+	printf("¶ÓÊ×Î»ÖÃ%d\n", Q.front);
+	printf("¶ÓÎ²Î»ÖÃ%d\n", Q.rear);
 
 
 	
